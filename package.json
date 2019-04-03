@@ -1,0 +1,27 @@
+{
+  "name": "tallbag-take",
+  "version": "1.0.0",
+  "description": "Tallbag operator that limits the total amount of data sent through",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/staltz/tallbag-take.git"
+  },
+  "main": "index.js",
+  "types": "types.d.ts",
+  "scripts": {
+    "test": "tape test.js"
+  },
+  "author": "staltz.com",
+  "license": "MIT",
+  "keywords": [
+    "callbag",
+    "tallbag"
+  ],
+  "devDependencies": {
+    "tape": "^4.8.0"
+  },
+  "dependencies": {
+    "tallbag": "^1.2.0",
+    "shadow-callbag": "~1.0.0"
+  }
+}
